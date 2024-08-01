@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Исследуем космос!</title>
+    <style>
+        body {
+            background-color: #0b0019;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        .subheader {
+            font-size: 18px;
+            color: #8fbc8f;
+        }
+        .video {
+            margin-top: 20px;
+        }
+        .posters {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .poster {
+            border: 2px solid yellow;
+            padding: 10px;
+            width: 30%;
+        }
+        .poster img {
+            width: 100%;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            color: #fff;
+        }
+        th, td {
+            border: 1px solid yellow;
+            padding: 8px;
+            text-align: center;
+        }
+        .feedback {
+            margin-top: 20px;
+        }
+        .submit-btn {
+            background-color: yellow;
+            color: black;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .input-field {
+            width: 80%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Исследуем космос!</div>
+        <div class="subheader">Космос - это не только звезды и планеты, это целый мир загадок и открытий.</div>
+        
+        <div class="posters">
+            <div class="poster">
+                <img src="https://via.placeholder.com/150" alt="Космос Путешествие по вселенной">
+                <div>КОСМОС ПУТЕШЕСТВИЕ ПО ВСЕЛЕННОЙ</div>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="poster">
+                <img src="https://via.placeholder.com/150" alt="Загадки космоса">
+                <div>ЗАГАДКИ КОСМОСА</div>
+            </div>
+        </div>
+        
+        <table>
+            <tr>
+                <th>Планета</th>
+                <th>Расстояние до Солнца</th>
+                <th>Средняя температура</th>
+            </tr>
+            <tr>
+                <td>Меркурий</td>
+                <td>57,9 млн км</td>
+                <td>28,5 °C</td>
+            </tr>
+        </table>
+        
+        <div class="feedback">
+            Что нового вы узнали о космосе? Расскажите нам:
+            <textarea class="input-field" rows="4"></textarea>
+        </div>
+        
+        <button class="submit-btn">Отправить</button>
+    </div>
+</body>
+</html>
